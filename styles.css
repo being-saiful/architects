@@ -1,0 +1,72 @@
+/* --common styles-- */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* --header common styles-- */
+.header{
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+
+/* --nav style-- */
+nav{
+    display: flex;
+    gap: 620px;
+    justify-content: space-between;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin-left: 150px;
+}
+.nav-menu{
+    margin-top: 65px;
+    margin-right: 240px;
+}
+
+.menu-items{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+    padding-right: 45px;
+}
+
+/* --header styles */
+
+.header-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title{
+    font-size: 64px;
+    font-weight: 700;
+    color: #131313;
+}
+
+.title-and-description{
+    align-items: center;
+    width: 35%;        
+}
+
+.primary-btn{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px 20px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
