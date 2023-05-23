@@ -46,6 +46,10 @@ nav{
     align-items: center;
 }
 
+.header-title img{
+    margin-bottom: 50px;
+}
+
 .main-title{
     font-size: 64px;
     font-weight: 700;
@@ -69,4 +73,40 @@ nav{
     border-radius: 5px;
     margin-bottom: 50px;
 }
+
+/* --quick list section styles */
+
+.quick-list-section{
+    display: flex;
+    margin-top: 85px;
+    margin-right: 200px;
+}
+.images{
+    width: 50%;
+    margin-left: 180px;
+}
+.img{
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+.quick-list-texts{
+    width: 50%;
+    margin-top: 250px;
+}
+.quick-title-thick{
+    font-size: 45px;
+    font-weight: 500;
+    color: #727272;
+}
+.quick-title-bold{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+.quick-title-special{
+    font-size: 45px;
+    font-weight: 700;
+    color: #FF900E;
+}
+
 
