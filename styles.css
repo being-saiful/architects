@@ -93,7 +93,7 @@ nav{
     width: 50%;
     margin-top: 250px;
 }
-.quick-title-thick{
+ .quick-title-thick{
     font-size: 45px;
     font-weight: 500;
     color: #727272;
@@ -174,4 +174,40 @@ nav{
     font-weight: 500px;
 }
 
+/* -- some facts styles -- */
+
+.facts-title-description-container{
+    width: 100%;
+    margin-left: 230px;
+}
+.facts-items-container{
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    justify-content: center;
+}
+.facts-item{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 35px 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.facts-item-title{
+    color: #424242;
+    font-size: 45px;
+    font-size: 600;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.facts-item-description{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+}
+.facts--description{
+    margin-bottom: 80px;
+}
 
